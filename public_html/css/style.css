@@ -1,0 +1,157 @@
+body {
+    font-family: Roboto;
+}
+
+header,
+.auth-block {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+table {
+    width: 500px;
+    margin: auto;
+    margin-top: 25px;
+    border-collapse: collapse;
+}
+
+tr {}
+
+.tr {
+    border-top: 1px #808080 solid;
+    border-bottom: 1px #808080 solid;
+}
+
+th {
+    text-align: left;
+    width: fit-content;
+    padding: 10px;
+    font-size: 13px;
+}
+
+th:nth-of-type(2) {
+    width: 25%;
+}
+
+td {
+    text-align: left;
+    padding: 10px;
+}
+
+.container {
+    margin: 0 250px;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    border-radius: 3px;
+}
+
+.input {
+    height: 25px;
+    padding: 2px 5px;
+    border: 1px rgba(127, 127, 127, 0.6) solid;
+}
+
+.input-block {
+    margin-bottom: 10px;
+}
+
+.input-block:last-of-type {
+    margin-bottom: 0;
+}
+
+.text-part {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.auth-btn {
+    margin-top: 20px;
+    padding: 5px 20px;
+    background-color: gray;
+    color: #fff;
+    font-size: 12px;
+    border: none;
+}
+
+.save-btn {
+    width: 10%;
+    background-color: gray;
+    color: #fff;
+    font-size: 12px;
+    border: none;
+    margin-top: 30px;
+    padding: 10px 20px;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.profile-block {
+    display: flex;
+    border: 2px #000 solid;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+.profile-block p {}
+
+.nav-block {
+    margin-left: auto;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-link {
+    margin-right: 10px;
+}
+
+.nav-link:last-child {
+    margin-right: 0;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #000;
+}
+
+.bottom-line {
+    border-bottom: 2px #000 solid;
+    width: calc(100% + 1px);
+    margin: 0;
+}
+
+.settings-block {
+    margin-top: 30px;
+}
+
+.settings-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.settings-form>.input-block>input {}
+
+.settings-form>.input-block>label {
+    float: left;
+    padding-right: 10px;
+}
